@@ -6,6 +6,7 @@ public class BlizzardMan : MonoBehaviour
     [SerializeField] private float timeToAttack = 2;
 
     private float attackTimer = 0;
+    private float rollTimer = 1;
 
     private void Start()
     {
